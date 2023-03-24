@@ -88,7 +88,7 @@ ul {
     gap: 40px;
     li{
         @include flex(row, center, center);
-        padding: 20px 0;
+        padding: 50px 0;
         color: $text-color;
         &:not(.active):hover {
             color: lighten($color: $text-color, $amount: 15%);

@@ -10,3 +10,9 @@ export default {
     </div>
 </template>
 
+<style lang="scss" scoped>
+div {
+    align-self: center;
+}
+</style>
+
