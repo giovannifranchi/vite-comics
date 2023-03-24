@@ -29,7 +29,6 @@ export default {
     @include container($container-big);
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
     .logo {
         width: 75px;
     }

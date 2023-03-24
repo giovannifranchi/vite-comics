@@ -9,3 +9,9 @@
     align-items: $align;
     justify-content: $justify;
 }
+
+@mixin jumbotron($src, $position, $repeat){
+    background-image: url($src);
+    object-position: $position;
+    background-repeat: $repeat;
+}
